@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.NavbarItems
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #A9AF7E;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 80px;
+    position: relative;
+    left: 50%;
+    margin: 0px;
+    padding-top: 0px;
+    transform: translate(-50%);
+}
+
+.logo 
+{
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+    padding: 40px;
+}
+
+.nav-menu
+{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 60px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.nav-links
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.7 rem 1rem;
+    white-space: nowrap;
+
+}
+
+.nav-links:hover 
+{
+    background-color: #557153;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-links-mobile
+{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    white-space: nowrap;
+    background-color: #395144;
+}
+
+.nav-links-mobile:hover
+{
+    background-color: #61764B;
+    color: #fff;
+    padding: 20px 60px;
+    transition: all 0.5s ease-in-out;
+}
