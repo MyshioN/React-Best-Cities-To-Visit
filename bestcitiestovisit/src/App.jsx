@@ -1,12 +1,14 @@
-import { NavBar } from "./Components/NavBar/NavBar"
+import { NavBar } from "./Components/NavBar/NavBar.jsx"
+import Usa from "./Pages/Usa.jsx"
+
 
 
 function App() {
 
   return (
-    <div className="App">
+    <>
       <NavBar />
-    </div>
+    </>
   )
 }
 
