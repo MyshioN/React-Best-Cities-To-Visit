@@ -1,3 +1,5 @@
+import Usa from "../Pages/Usa"
+
 export const MenuData = [
     {
         title: "Home",
@@ -11,17 +13,17 @@ export const MenuData = [
     },
     {
         title: "USA",
-        url: "#",
+        url: "Usa.jsx",
         cName: "nav-links"
     },
     {
-        title: "Contact",
+        title: "Asia",
         url: "#",
         cName: "nav-links"
     },
     {
         title: "Book Flights",
-        url: "#",
+        url: "https://www.lufthansa.com/pl/en/homepage",
         cName: "nav-links-mobile"
     }
 ]
